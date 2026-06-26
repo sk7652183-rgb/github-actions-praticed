@@ -14,19 +14,17 @@ jobs:
   
     runs-on: ubuntu-latest
     steps:
-      -name: Build using docker
-      run: echo"Building the Code"
+      - name: Build using docker
+        run: echo"Building the Code"
   test:
   
     runs-on: ubuntu-latest
     steps:
-      -name: Running the Test case
-      run: echo "Testing the Test case"
+      - name: Running the Test case
+        run: echo "Testing the Test case"
       
   deploy:
     runs-on: ubuntu-latest
     steps:
-      -name: Deploying on the machine
-      run: echo "Deploying the Code "
- 
- deploy:
+      - name: Deploying on the machine
+        run: echo "Deploying the Code 
